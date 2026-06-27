@@ -1,0 +1,69 @@
+/* Reset & Base Styles */
+* {    
+    margin: 0;    
+    padding: 0;    
+    box-sizing: border-box;    
+    font-family: Arial, sans-serif;
+}
+
+body {    
+    background: #0f172a;    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    
+    height: 100vh;
+}
+
+/* Card Container */
+.container {    
+    background: #1e293b;    
+    padding: 30px;    
+    width: 380px;    
+    border-radius: 15px;    
+    color: white;    
+    box-shadow: 0 0 20px cyan;
+}
+
+h2 {    
+    text-align: center;    
+    margin-bottom: 20px;
+}
+
+input {    
+    width: 100%;    
+    padding: 12px;    
+    border: none;    
+    border-radius: 8px;    
+    outline: none;    
+    font-size: 16px;
+}
+
+/* Progress Bar Container */
+.progress {    
+    width: 100%;    
+    height: 12px;    
+    background: #555;    
+    border-radius: 20px;    
+    margin-top: 15px;
+}
+
+/* Dynamic Bar (Controlled by JS) */
+.bar {    
+    height: 100%;    
+    width: 0%;    
+    border-radius: 20px;    
+    transition: 0.4s;
+}
+
+#result {    
+    margin-top: 15px;    
+    font-size: 18px;    
+    text-align: center;    
+    font-weight: bold;
+}
+
+ul {    
+    margin-top: 20px;    
+    line-height: 30px;
+    list-style: none; /* Optional: removes default bullet points if desired */
+}
